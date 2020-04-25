@@ -7,3 +7,7 @@ let x = {
 }
 
 console.log(JSON.stringify(x))
+
+(() => {
+  console.log(x.next);
+})();
